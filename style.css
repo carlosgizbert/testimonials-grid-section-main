@@ -1,7 +1,6 @@
 /* reset */
 html,
 body {
-  margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: #edf2f8;
@@ -83,7 +82,8 @@ blockquote p::after {
 /* card end */
 
 .container {
-  margin: 5rem 4rem;
+  margin: 2rem auto;
+  max-width: 1024px;
   display: grid;
   gap: 1.5rem;
   grid-template-columns: 1fr 1fr 1fr 1fr;
