@@ -44,6 +44,7 @@ blockquote p::after {
 
 .white {
   background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .dark {
@@ -92,6 +93,16 @@ blockquote p::after {
     'd e e c';
 }
 
+@media only screen and (max-width: 1024px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .div03 {
+    order: 5;
+  }
+}
+
 /* user */
 .user {
   display: flex;
@@ -116,9 +127,6 @@ blockquote p::after {
   font-family: 'Archivo', sans-serif;
   font-weight: normal;
   opacity: 50%;
-}
-
-h3 {
 }
 
 h4 {
